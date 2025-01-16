@@ -8,6 +8,7 @@ class MainScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final size = MediaQuery.of(context).size;
     return SafeArea(
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 25.0, vertical: 10),
@@ -104,10 +105,10 @@ class MainScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 20),
-                  const Text(
+                   Text(
                     'Rs 4000.00',
                     style: TextStyle(
-                      fontSize: 40,
+                      fontSize: size.width * 0.05,
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
                     ),
@@ -142,11 +143,11 @@ class MainScreen extends StatelessWidget {
                                 const SizedBox(width: 8),
                                 Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: const [
+                                  children:  [
                                     Text(
                                       'Income',
                                       style: TextStyle(
-                                        fontSize: 16,
+                      fontSize: size.width * 0.03,
                                         color: Colors.white,
                                         fontWeight: FontWeight.w600,
                                       ),
@@ -154,7 +155,7 @@ class MainScreen extends StatelessWidget {
                                     Text(
                                       'Rs 2000.00',
                                       style: TextStyle(
-                                        fontSize: 16,
+                      fontSize: size.width * 0.02,
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -188,11 +189,11 @@ class MainScreen extends StatelessWidget {
                                 const SizedBox(width: 8),
                                 Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: const [
+                                  children:  [
                                     Text(
                                       'Expenses',
                                       style: TextStyle(
-                                        fontSize: 16,
+                      fontSize: size.width * 0.03,
                                         color: Colors.white,
                                         fontWeight: FontWeight.w600,
                                       ),
@@ -200,7 +201,7 @@ class MainScreen extends StatelessWidget {
                                     Text(
                                       'Rs 2000.00',
                                       style: TextStyle(
-                                        fontSize: 16,
+                      fontSize: size.width * 0.02,
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold,
                                       ),

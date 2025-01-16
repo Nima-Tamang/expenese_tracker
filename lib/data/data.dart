@@ -6,21 +6,21 @@ List<Map<String,dynamic>> transactionData = [
     'icon': const FaIcon(FontAwesomeIcons.burger,color: Colors.white),
     'name': 'Food',
     'color': Colors.yellow[700],
-    'totalAmount': "-\Rs45.00",
+    'totalAmount': "-Rs45.00",
     'date': 'Today'
   },
   {
     'icon': const FaIcon(FontAwesomeIcons.bagShopping,color: Colors.white),
     'name': 'Shopping',
      'color':Colors.purple,
-    'totalAmount': "-\Rs4534.00",
+    'totalAmount': "-Rs4534.00",
     'date': 'Today'
   },
   {
     'icon': const FaIcon(FontAwesomeIcons.burger,color: Colors.white),
     'name': 'Food',
      'color':Colors.green,
-    'totalAmount': "-\Rs453.00",
+    'totalAmount': "-Rs453.00",
     'date': 'Yesterday'
   },
 
@@ -28,7 +28,7 @@ List<Map<String,dynamic>> transactionData = [
     'icon': const FaIcon(FontAwesomeIcons.plane,color: Colors.white),
     'name': 'Travel',
      'color':Colors.blue,
-    'totalAmount': "-\Rs4353.00",
+    'totalAmount': "-Rs4353.00",
     'date': 'Yesterday'
   },
 ];
