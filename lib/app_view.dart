@@ -13,9 +13,12 @@ class MyAppView extends StatelessWidget {
       colorScheme: ColorScheme.light(
         surface: Colors.grey.shade100,
         onSurface: Colors.black,
-        primary:Color(0xFF00B2E7),
-        secondary: Color(0xFFE064F7),
-        tertiary: Color(0xFFFF8D6C),
+        // primary:Color(0xFF00B2E7),
+        // secondary: Color(0xFFE064F7),
+        // tertiary: Color(0xFFFF8D6C),
+        primary: const Color(0xFF755690),  // Adjusted opacity (fully opaque)
+          secondary: const Color(0xFFCDD5BF),
+          tertiary: const Color(0xFFCBCBD7),
         outline: Colors.grey,
       )
     ),
